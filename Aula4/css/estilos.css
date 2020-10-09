@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    color: burlywood;
+    margin: 50px;
+    display: inline;
+}
+
+#paragrafo{
+    color: #000000;
+}
+
+.paragrafo{
+    color: #FFFFFF;
+}
+
+.paragrafo a{
+    color: #FFFFFF;
+}
+
+a{
+    color: coral;
+}
+
+img{
+    width: inherit;
+    height: inherit;
+}
+
