@@ -1,0 +1,65 @@
+body, html{
+    height: 100%;
+}
+
+.cabecalho{
+    background-color: green;
+    height: 20%;
+}
+
+.rodape{
+    height: 20%;
+    background-color: purple;
+}
+
+/*TELEMÓVEIS*/
+@media screen and (max-width: 767px) {
+
+    .esquerda{
+        height: 20%;
+        width: 100%;
+        display: inline-block;
+        background-color: lightcoral;
+    }
+
+    .centro{
+        height: 20%;
+        width: 100%;
+        display: inline-block;
+        background-color: blue;
+    }
+
+    .direita{
+        height: 20%;
+        width: 100%;
+        display: inline-block;
+        background-color: gray;
+    }
+
+}
+
+/*COMPUTADORES*/
+@media screen and (min-width: 1024px) {
+    
+    .esquerda{
+        height: 60%;
+        width: 33%;
+        display: inline-block;
+        background-color: lightcoral;
+    }
+    
+    .centro{
+        height: 60%;
+        width: 33%;
+        display: inline-block;
+        background-color: blue;
+    }
+    
+    .direita{
+        height: 60%;
+        width: 33%;
+        display: inline-block;
+        background-color: gray;
+    }
+
+}
