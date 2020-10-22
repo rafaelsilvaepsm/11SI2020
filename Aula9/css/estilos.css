@@ -21,3 +21,30 @@ body, html{
     width: 100%;
 }
 
+.alunoDetalhe{
+    border: 1px solid #000000;
+    width: 75%;
+    margin: auto auto;
+    padding: 15px;
+}
+
+.alunoDetalhe hr{
+    clear: both;
+}
+
+.alunoDetalhe img{
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.alunoDetalhe table{
+    width: 100%;
+}
+
+.alunoDetalhe .cabecalho{
+    background-color: black;
+    color: white;
+}
+
