@@ -30,3 +30,11 @@
 
 1. Websites responsivos
 2. CSS Media Queries
+
+## Aula 8
+
+1. Exercício para avaliação com utilização de CSS e Media Queries
+
+## Aula 9
+
+1. Correção do exercício da aula anterior
