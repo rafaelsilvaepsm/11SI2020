@@ -1,0 +1,130 @@
+body, html{
+    height: 100%;
+}
+
+.cabecalho{
+    background-color: blue;
+}
+
+.esquerda{
+    background-color: blueviolet;
+}
+
+.centro{
+    background-color: crimson;
+}
+
+.direita{
+    background-color: darkgreen;
+}
+
+.rodape{
+    background-color: darksalmon;
+}
+
+.grid{
+    display: grid;
+    height: 100%;
+}
+
+/*Telemóveis*/
+@media screen and (max-width:767px){
+
+    .grid{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .centro{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    
+    .direita{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+}
+
+/*Tables*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    .grid{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .centro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .direita{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+}
+
+/*Computador*/
+@media screen and (min-width:1024px){
+
+    .grid{
+        grid-template-columns: auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .centro{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .direita{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
