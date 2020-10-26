@@ -1,0 +1,153 @@
+body, html{
+    height: 100%;
+}
+
+.tema1 .cabecalho{
+    background-color: blue;
+}
+
+.tema1 .esquerda{
+    background-color: blueviolet;
+}
+
+.tema1 .centro{
+    background-color: crimson;
+}
+
+.tema1 .direita{
+    background-color: darkgreen;
+}
+
+.tema1 .rodape{
+    background-color: darksalmon;
+}
+
+
+
+.tema2 .cabecalho{
+    background-color: red;
+}
+
+.tema2 .esquerda{
+    background-color: blue;
+}
+
+.tema2 .centro{
+    background-color: yellow;
+}
+
+.tema2 .direita{
+    background-color: gray;
+}
+
+.tema2 .rodape{
+    background-color: black;
+}
+
+
+.grid{
+    display: grid;
+    height: 100%;
+}
+
+/*Telemóveis*/
+@media screen and (max-width:767px){
+
+    .grid{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .centro{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    
+    .direita{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+}
+
+/*Tables*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    .grid{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .centro{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .direita{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+}
+
+/*Computador*/
+@media screen and (min-width:1024px){
+
+    .grid{
+        grid-template-columns: auto auto auto;
+    }
+
+    .cabecalho{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .esquerda{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .centro{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .direita{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    .rodape{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
