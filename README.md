@@ -1,5 +1,9 @@
 # SI - Sistemas de Informação (11º Ano)
 
+## Aula 1
+
+1. Iniciação ao HTML
+
 ## Aula 2
 
 1. Listas HTML (ordenadas e não ordenadas)
