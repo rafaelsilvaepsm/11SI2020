@@ -38,3 +38,15 @@
 ## Aula 9
 
 1. Correção do exercício da aula anterior
+
+## Aula 10
+
+1. CSS Grids
+
+## Aula 11
+
+1. Javascript (Manipulação de atributos)
+
+## Aula 12
+
+1. Bootstrap
