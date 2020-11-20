@@ -1,0 +1,124 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.tema1 .zona1{
+    background-color: blue;
+}
+
+.tema1 .zona2{
+    background-color: brown;
+}
+
+.tema1 .zona3{
+    background-color: aqua;
+}
+
+.tema1 .zona4{
+    background-color: cadetblue;
+}
+
+.tema1 .zona5{
+    background-color: chocolate;
+}
+
+.tema1 .zona6{
+    background-color: cornflowerblue;
+}
+
+.tema2 .zona1{
+    background-color: green;
+}
+
+.tema2 .zona2{
+    background-color: yellow;
+}
+
+.tema2 .zona3{
+    background-color: red;
+}
+
+.tema2 .zona4{
+    background-color: green;
+}
+
+.tema2 .zona5{
+    background-color: red;
+}
+
+.tema2 .zona6{
+    background-color: yellow;
+}
+
+.zona1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.zona2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.zona3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.zona4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.zona5{
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.zona6{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+/*Telemóveis*/
+@media screen and (max-width:767px){
+
+    .zona1{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    
+    .zona2{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    
+    .zona3{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    
+    .zona4{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    
+    .zona5{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+    
+    .zona6{
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+}

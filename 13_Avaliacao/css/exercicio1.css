@@ -1,0 +1,59 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo{
+    height: 100%;
+}
+
+.cabecalho{
+    background-color: blueviolet;
+    height: 20%;
+    width: 100%;
+}
+
+.esquerda{
+    background-color: brown;
+    height: 60%;
+    width: 20%;
+    float: left;
+}
+
+.direita{
+    height: 60%;
+    width: 80%;
+    float: left;
+}
+
+.direita .conteudo{
+    padding: 20px;
+}
+
+.tabelaDados{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.tabelaDados tr td, .tabelaDados tr th{
+    padding: 10px;
+}
+
+.tabelaDados .cabecalho{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.tabelaDados .subCabecalho{
+    background-color: gray;
+    font-weight: bold;
+}
+
+.rodape{
+    background-color: chartreuse;
+    height: 20%;
+    width: 100%;
+    clear: both;
+}
